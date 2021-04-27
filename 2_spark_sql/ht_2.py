@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import sum, col, desc, round
+from pyspark.sql.functions import sum, col, desc
 
 spark = SparkSession \
     .builder \
