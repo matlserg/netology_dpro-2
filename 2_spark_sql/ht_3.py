@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, desc, lag
+from pyspark.sql.functions import col, lag
 from pyspark.sql.window import Window
 
 spark = SparkSession \
